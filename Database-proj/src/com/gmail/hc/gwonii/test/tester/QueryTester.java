@@ -31,6 +31,8 @@ public class QueryTester extends Thread {
 //        queryDistrict(tempRegion);
 
 
+
+
         while (true) {
             System.out.println("+-------------------+");
             System.out.println("1. 의원친밀도");

@@ -52,16 +52,16 @@ public class ParsingTester extends Thread {
 
         System.out.println("confirm----------------------------------------------------");
 
-        File confirmFile = new File("./asset/confirm.json");
-        confirmList = ParsingUtil.confirmParsing(confirmFile);
-
-        insertConfirmTable(confirmList);
+//        File confirmFile = new File("./asset/confirm.json");
+//        confirmList = ParsingUtil.confirmParsing(confirmFile);
+//
+//        insertConfirmTable(confirmList);
 
         System.out.println("result----------------------------------------------------");
 
-//        File resultFile = new File("./asset/bill.json");
-//        resultList = ParsingUtil.billParsing(resultFile);
-//
-//        insertResultTable(resultList);
+        File resultFile = new File("./asset/bill.json");
+        resultList = ParsingUtil.billParsing(resultFile);
+
+        insertResultTable(resultList);
     }
 }

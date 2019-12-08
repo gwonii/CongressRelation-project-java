@@ -89,7 +89,7 @@ public class InsertTable {
             stmt = MysqlHelper.conn.createStatement();
 
             for (int i = 0; i < billList.getData().size(); i++) {
-                sql = "INSERT INTO congress VALUES ('" + billList.getData().get(i).getBillCode() + "'," +
+                sql = "INSERT INTO result VALUES ('" + billList.getData().get(i).getBillCode() + "'," +
                         " '" + billList.getData().get(i).getAgree() + "'," +
                         " '" + billList.getData().get(i).getWithdraw() + "',"+
                         " '" + billList.getData().get(i).getDisagree() + "',"+
@@ -122,7 +122,8 @@ public class InsertTable {
         }
     }
 
-    //bill 에 bill과 result를 만들어야함
+
+   //bill 에 bill과 result를 만들어야함
 
     //        MysqlHelper.setMysql();
 //

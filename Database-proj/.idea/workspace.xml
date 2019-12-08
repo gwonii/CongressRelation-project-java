@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53fa3482-96e9-4ab4-a31e-597028d6d6dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database-proj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Database-proj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/agency.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/bill.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/congressMan.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/controller/MysqlHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/controller/MysqlHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Agency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Agency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Congressman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Congressman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Result.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/controller/MysqlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/controller/MysqlHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Agency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Agency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Congressman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Congressman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Confirm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/ParsingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/ParsingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/QueryTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/QueryTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/InsertTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/InsertTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/QueryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/QueryUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java/LogCollector-daou-java/log_collector_v1.0" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
