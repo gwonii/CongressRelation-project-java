@@ -23,10 +23,6 @@ public class ParsingUtil {
 
             billList = gson.fromJson(fr, BillList.class);
 
-            for (int i = 0; i < billList.getData().size(); i++) {
-                System.out.println(billList.getData().get(i).toString());
-            }
-
             fr.close();
         } catch (IOException e) {
             // 파일을 찾지 못한 경우
@@ -47,10 +43,6 @@ public class ParsingUtil {
 
             agencyList = gson.fromJson(fr, AgencyList.class);
 
-            for (int i = 0; i < agencyList.getData().size(); i++) {
-                System.out.println(agencyList.getData().get(i).toString());
-            }
-
             fr.close();
         } catch (IOException e) {
             // 파일을 찾지 못한 경우
@@ -70,10 +62,6 @@ public class ParsingUtil {
 
             congressmanList = gson.fromJson(fr, CongressmanList.class);
 
-            for (int i = 0; i < congressmanList.getData().size(); i++) {
-                System.out.println(congressmanList.getData().get(i).toString());
-            }
-
             fr.close();
         } catch (IOException e) {
             // 파일을 찾지 못한 경우
@@ -92,10 +80,6 @@ public class ParsingUtil {
             FileReader fr = new FileReader(files);
 
             confirmList = gson.fromJson(fr, ConfirmList.class);
-
-            for (int i = 0; i < confirmList.getData().size(); i++) {
-                System.out.println(confirmList.getData().get(i).toString());
-            }
 
             fr.close();
         } catch (IOException e) {

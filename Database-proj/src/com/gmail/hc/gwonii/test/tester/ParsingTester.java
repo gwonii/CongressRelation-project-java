@@ -29,39 +29,42 @@ public class ParsingTester extends Thread {
         confirmList = new ConfirmList();
         resultList = new BillList();
 
-        System.out.println("bill----------------------------------------------------");
+        System.out.println("start insert----------------------------------------------------");
 
-//        File billFile = new File("./asset/bill.json");
-//        billList = ParsingUtil.billParsing(billFile);
-//
-//        insertBillTable(billList);
+        File agencyFile = new File("./asset/agency.json");
+        agencyList = ParsingUtil.agencyParsing(agencyFile);
 
-        System.out.println("agency----------------------------------------------------");
+        InsertTable.insertAgencyTable(agencyList);
 
-//        File agencyFile = new File("./asset/agency.json");
-//        agencyList = ParsingUtil.agencyParsing(agencyFile);
-//
-//        InsertTable.insertAgencyTable(agencyList);
+        System.out.println("agency insert data complete------------------------------------- ");
 
-        System.out.println("congressman----------------------------------------------------");
+        File billFile = new File("./asset/bill.json");
+        billList = ParsingUtil.billParsing(billFile);
 
-//        File congressmanFile = new File("./asset/congressMan.json");
-//        congressmanList = ParsingUtil.congressmanParsing(congressmanFile);
-//
-//        insertCongressmanTable(congressmanList);
+        insertBillTable(billList);
 
-        System.out.println("confirm----------------------------------------------------");
+        System.out.println("bill insert data complete----------------------------------------");
 
-//        File confirmFile = new File("./asset/confirm.json");
-//        confirmList = ParsingUtil.confirmParsing(confirmFile);
-//
-//        insertConfirmTable(confirmList);
+        File congressmanFile = new File("./asset/congressMan.json");
+        congressmanList = ParsingUtil.congressmanParsing(congressmanFile);
 
-        System.out.println("result----------------------------------------------------");
+        insertCongressmanTable(congressmanList);
+
+        System.out.println("congressman insert data complete-------------------------------- ");
+
+        File confirmFile = new File("./asset/confirm.json");
+        confirmList = ParsingUtil.confirmParsing(confirmFile);
+
+        insertConfirmTable(confirmList);
+
+        System.out.println("confirm insert data complete-------------------------------------");
 
         File resultFile = new File("./asset/bill.json");
         resultList = ParsingUtil.billParsing(resultFile);
 
         insertResultTable(resultList);
+
+        System.out.println("result insert data complete--------------------------------------");
+
     }
 }

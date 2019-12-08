@@ -8,17 +8,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class InsertTable {
-//
-//    INSERT INTO 테이블명
-//    VALUES (전체 COLUMN에 넣을 VALUE_LIST);
-//
-//    INSERT INTO PLAYER
-//    VALUES ('2002007', ' 박지성', 'K07', 'MF' ,178, 73, 7);
 
     public static void insertAgencyTable(AgencyList agencyList) {
         ResultSet rs = null;
         Statement stmt = null;
-        String sql = "";
+        String sql = null;
 
         try {
             stmt = MysqlHelper.conn.createStatement();
@@ -36,8 +30,6 @@ public class InsertTable {
         ResultSet rs = null;
         Statement stmt = null;
         String sql = null;
-
-        sql = "";
 
         try {
             stmt = MysqlHelper.conn.createStatement();
@@ -60,8 +52,6 @@ public class InsertTable {
         Statement stmt = null;
         String sql = null;
 
-        sql = "";
-
         try {
             stmt = MysqlHelper.conn.createStatement();
 
@@ -83,8 +73,6 @@ public class InsertTable {
         Statement stmt = null;
         String sql = null;
 
-        sql = "";
-
         try {
             stmt = MysqlHelper.conn.createStatement();
 
@@ -97,7 +85,7 @@ public class InsertTable {
                 stmt.executeUpdate(sql);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
     }
 
@@ -105,8 +93,6 @@ public class InsertTable {
         ResultSet rs = null;
         Statement stmt = null;
         String sql = null;
-
-        sql = "";
 
         try {
             stmt = MysqlHelper.conn.createStatement();
@@ -118,32 +104,7 @@ public class InsertTable {
                 stmt.executeUpdate(sql);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+
         }
     }
-
-
-   //bill 에 bill과 result를 만들어야함
-
-    //        MysqlHelper.setMysql();
-//
-//        ResultSet rs = null;
-//        Statement stmt = null;
-//
-//        String sql = "SELECT name FROM bill";
-//
-//        try {
-//            stmt = MysqlHelper.conn.createStatement();
-//            rs = stmt.executeQuery(sql);
-//
-//            while(rs.next()){
-//                // 레코드의 칼럼은 배열과 달리 0부터 시작하지 않고 1부터 시작한다.
-//                // 데이터베이스에서 가져오는 데이터의 타입에 맞게 getString 또는 getInt 등을 호출한다.
-//                String name = rs.getString(1);
-//                System.out.println(""+name + "\n");
-//            }
-//
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
 }

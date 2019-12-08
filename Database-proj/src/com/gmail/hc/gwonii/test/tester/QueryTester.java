@@ -19,20 +19,6 @@ public class QueryTester extends Thread {
 
         MysqlHelper.setMysql();
 
-//        System.out.print("의원코드를 입력해주세요 : ");
-//        tempCode = sc.next();
-//
-//        createTempTable(tempCode);
-//        selectName(tempCode);
-//        queryIntimacy(tempCode);
-
-//        System.out.print("지역을 입력해주세요 : ");
-//        tempRegion = sc.next();
-//        queryDistrict(tempRegion);
-
-
-
-
         while (true) {
             System.out.println("+-------------------+");
             System.out.println("1. 의원친밀도");

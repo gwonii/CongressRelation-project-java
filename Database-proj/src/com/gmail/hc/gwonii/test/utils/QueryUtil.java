@@ -35,13 +35,10 @@ public class QueryUtil {
 
     }
 
-    // congressManCode 입력
     public static void createTempTable(String congressManCode) {
         ResultSet rs = null;
         Statement stmt = null;
         String sql = null;
-
-        sql = "";
 
         try {
             stmt = MysqlHelper.conn.createStatement();
@@ -97,21 +94,6 @@ public class QueryUtil {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-//        try {
-//            stmt = MysqlHelper.conn.createStatement();
-//
-//            for (int i = 0; i < confirmList.getData().size(); i++) {
-//                sql = "INSERT INTO confirm VALUES ('" + confirmList.getData().get(i).getCongressManCode() + "'," +
-//                        " '" + confirmList.getData().get(i).getBillCode() + "'," +
-//                        " '" + confirmList.getData().get(i).getResultVote() + "')";
-//                stmt.executeUpdate(sql);
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-
     }
 
     // 지역구

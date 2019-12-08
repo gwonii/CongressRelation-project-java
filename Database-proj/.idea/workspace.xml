@@ -5,9 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/controller/MysqlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/controller/MysqlHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/ParsingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/ParsingTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/QueryTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/tester/QueryTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/InsertTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/InsertTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/ParsingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/ParsingUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/QueryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/utils/QueryUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java/LogCollector-daou-java/log_collector_v1.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
