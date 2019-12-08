@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53fa3482-96e9-4ab4-a31e-597028d6d6dc" name="Default Changelist" comment="" />
+    <list default="true" id="53fa3482-96e9-4ab4-a31e-597028d6d6dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database-proj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Database-proj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/agency.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bill.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/congressMan.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/controller/MysqlHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/controller/MysqlHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Agency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Agency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Bill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Congressman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Congressman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Database-proj/com/gmail/hc/gwonii/test/model/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/controller/MysqlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/controller/MysqlHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Agency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Agency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Congressman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Congressman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/hc/gwonii/test/model/Confirm.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +34,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TYTwEiD5OrS8p7ezE1nDf4Ea23" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.18.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programing-E\Project\CongressRelation\Database-proj\lib" />
+      <recent name="E:\Programing-E\Project\CongressRelation\Database-proj\asset" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,5 +95,18 @@
       <updated>1573636265769</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
